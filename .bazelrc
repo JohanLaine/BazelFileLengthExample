@@ -1,0 +1,3 @@
+startup --output_user_root="C:\\bzltmp"
+build --experimental_enable_runfiles  # Requires Developer Mode
+test --test_output=all
