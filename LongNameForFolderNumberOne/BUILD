@@ -1,6 +1,6 @@
 cc_test(
     name = "example_test",
-    srcs = ["simple.cpp"],
+    srcs = ["reading_test.cpp"],
     data = [":testdata"],
     deps = ["@googletest//:gtest_main",]
 )
